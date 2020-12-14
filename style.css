@@ -21,6 +21,7 @@ main {
 .logo {
     height: 4rem;
     margin: 0.2rem;
+    float: left;
 }
 
 h1 {
@@ -38,4 +39,29 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.no-bullets {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    margin: 0;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+    bottom: 0;
+}
+
+.nav-content {
+    display: inline;
+    font-size: 3rem;
+    margin-left: 2rem;
+    border-bottom-width: 3px;
 }
