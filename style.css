@@ -20,7 +20,7 @@ main {
 
 .logo {
     height: 4rem;
-    margin: none;
+    margin: 0;
     float: left;
     
 }
