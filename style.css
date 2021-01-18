@@ -86,3 +86,11 @@ a {
 .nav-list {
     position: absolute;
 }
+
+.solid-bottom {
+    border: solid;
+    border-color: #c1110e;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
