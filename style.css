@@ -20,15 +20,16 @@ main {
 
 .logo {
     height: 4rem;
-    margin: 0.2rem;
+    margin: none;
     float: left;
+    
 }
 
 h1 {
     font-family: 'Prompt', sans-serif;
     color: #c1110e;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 h2 {
