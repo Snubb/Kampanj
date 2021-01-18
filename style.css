@@ -25,13 +25,19 @@ main {
 }
 
 h1 {
+    font-family: 'Prompt', sans-serif;
     color: #c1110e;
     text-align: center;
     font-size: 4rem;
 }
 
 h2 {
+    font-family: 'Prompt', sans-serif;
     color: #F7F052;
+}
+
+p {
+    font-family: 'Hind Guntur', sans-serif;
 }
 
 .center {
@@ -61,6 +67,7 @@ nav {
 }
 
 .nav-content {
+    font-family: 'Prompt', sans-serif;
     display: inline;
     font-size: 3rem;
     margin-left: 2rem;
