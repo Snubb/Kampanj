@@ -88,7 +88,11 @@ a {
 }
 
 .nav-content:hover {
-    border-bottom-color: #c1110e;
+    border: solid;
+    border-color: #c1110e;
+    border-left: none;
+    border-right: none;
+    border-top: none;
 }
 
 .nav-list {
@@ -107,7 +111,31 @@ a {
     color: #F7F052;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 0px) and (max-width: 575px) {
+    .nav-content {
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+    .logo {
+        height: 2.5rem;
+    }
+
+    .center {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .nav-content {
+        font-size: 1.3rem;
+        margin: 0.5rem;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
     .center {
         width: 100%;
     }
@@ -127,7 +155,7 @@ a {
     }
 
     .nav-content {
-        font-size: 7vw;
+        font-size: 2.5rem;
         margin: 0.5rem;
     }
     
@@ -136,6 +164,25 @@ a {
     }
 
     .logo {
-        height: 2.5rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .center {
+        width: 80%;
+    }
+
+    main {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .center {
+        width: 70%;
+    }
+    main {
+        width: 70%;
     }
 }
