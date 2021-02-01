@@ -4,6 +4,10 @@ body {
     color: #dfdfdf;
 }
 
+.logo-img {
+    height: 120%;
+}
+
 header {
     background-color: #000000;
     position: fixed;
@@ -115,6 +119,10 @@ a {
 
 li {
     margin-bottom: 0;
+}
+
+picture {
+    height: 1rem;
 }
 
 @media screen and (min-width: 0px) and (max-width: 575px) {
