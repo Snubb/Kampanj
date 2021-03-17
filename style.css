@@ -4,10 +4,6 @@ body {
     color: #dfdfdf;
 }
 
-.logo-img {
-    height: 120%;
-}
-
 header {
     background-color: #000000;
     position: fixed;
